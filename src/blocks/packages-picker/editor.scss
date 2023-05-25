@@ -1,0 +1,67 @@
+/*
+* Style Works for Editor Only
+*/
+// .packages-list-wrapper {
+// 	.single-list {
+// 		border: 1px solid #ddd;
+// 		margin-bottom: 15px;
+// 		padding: 10px;
+// 		box-sizing: border-box;
+// 		position: relative;
+// 	}
+
+// 	button.components-button.remove-btn.has-icon {
+// 		bottom: -5px;
+// 		right: 0;
+// 		color: #bf0303;
+// 		border: 1px solid #bf0303;
+// 		box-sizing: border-box;
+// 	}
+// }
+
+// editor
+.wp-block-ppb-packages-picker {
+	// box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	// border-radius: 10px;
+	// box-sizing: border-box;
+	// padding: 20px;
+
+	// .package-btn-group {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	border: 2px solid #f00;
+	// }
+
+	// a.package-btn {
+	// 	background: #f00;
+	// 	text-align: center;
+	// 	display: block;
+	// }
+
+	// button.selected-package {
+	// 	padding: 8px;
+	// 	cursor: pointer;
+	// }
+}
+
+.package-list-wrapper {
+	width: 300px;
+
+	li.package-list {
+		padding: 10px;
+		list-style: none;
+		margin: 0;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+		transition: 0.2s;
+	}
+
+	.package-list + .package-list {
+		border-top: 1px solid #e2e2e2;
+	}
+
+	li.package-list:hover {
+		background: #ddd;
+	}
+}

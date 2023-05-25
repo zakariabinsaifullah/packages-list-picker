@@ -1,0 +1,85 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+.wp-block-ppb-packages-picker {
+	.package-btn-group {
+		border: 2px solid #f9651b;
+		position: relative;
+		text-align: center;
+		border-radius: 8px;
+		overflow: visible;
+	}
+
+	.package-wrapper {
+		position: relative;
+	}
+
+	.package-list-wrapper {
+		position: absolute;
+		top: 50px;
+		background: #fff;
+		width: 100%;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+		border: 2px solid #e9e7f0;
+		z-index: 5;
+		transition: 0.2s;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(5px);
+		&.active {
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+		}
+	}
+
+	li.package-list {
+		list-style: none !important;
+		text-align: left;
+		padding: 15px 30px;
+		background: #fff;
+		transition: 0.2s;
+		display: flex;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+
+	li.package-list + li.package-list {
+		border-top: 2px solid #f5f5fb;
+	}
+
+	li.package-list:hover {
+		background: #f5f5fb;
+	}
+
+	li.selected-package-item {
+		list-style: none !important;
+		display: block;
+		display: flex;
+		padding: 0 30px;
+		justify-content: space-between;
+	}
+
+	a.package-btn {
+		display: block;
+		background: #f9651b;
+		height: 50px;
+		line-height: 50px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 700;
+		text-decoration: none !important;
+	}
+
+	button.selected-package {
+		position: relative;
+		cursor: pointer;
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: 50px;
+		line-height: 1;
+		border: none !important;
+		background: transparent !important;
+	}
+}

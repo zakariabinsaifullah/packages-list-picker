@@ -1,0 +1,1 @@
+.package-list-wrapper{width:300px}.package-list-wrapper li.package-list{cursor:pointer;display:flex;justify-content:space-between;list-style:none;margin:0;padding:10px;transition:.2s}.package-list-wrapper .package-list+.package-list{border-top:1px solid #e2e2e2}.package-list-wrapper li.package-list:hover{background:#ddd}
